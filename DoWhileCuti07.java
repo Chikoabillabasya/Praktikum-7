@@ -25,6 +25,6 @@ public class DoWhileCuti07 {
                 break;
         }
         } 
-    } while (jatahCuti >0);
+    } while (jatahCuti > 0 && !konfirmasi.equalsIgnoreCase("t"));
     }
 }
